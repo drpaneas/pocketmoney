@@ -1,0 +1,17 @@
+us6.vpnauthority.com
+eu.vpnauthority.com
+us3.vpnauthority.com
+eu5.vpnauthority.com
+eu4.vpnauthority.com
+eu3.vpnauthority.com
+eu2.vpnauthority.com
+eu6.vpnauthority.com
+eu11.vpnauthority.com
+eu10.vpnauthority.com
+us.vpnauthority.com
+us5.vpnauthority.com
+us4.vpnauthority.com
+us2.vpnauthority.com
+eu9.vpnauthority.com
+eu8.vpnauthority.com
+eu7.vpnauthority.com

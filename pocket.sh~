@@ -1,0 +1,43 @@
+#!/bin/bash
+i=1
+host=http://linuxed.gr/script/
+str=links
+extension=.txt
+day=1
+while true
+do
+    echo
+    if [[ "$i" == 13 ]]
+    then
+        echo "Day $day out!"
+	echo "\   /"
+	echo " \ / "
+	echo "  |  " 
+        day=$(( $day + 1 ))
+        i=1
+    else
+        # Κατέβασε τα links
+        file=`echo $str$i$extension`
+        url=`echo $host$file`
+        wget $url -q -O links_new.txt
+
+	# Τσέκαρε αν το κατέβασες σωστά
+        if [ $? -eq 0 ]
+	then
+	    echo "New links fetched from $url ! Database has been updated!"
+	    mv links_new.txt links.txt
+        else
+	    echo "I COULDN'T !!!! fetch the new links from $url "
+	    echo "I will use the OLD links again"
+	fi
+        
+	echo "This is the $i time running..."
+	echo "============================================================="
+        sleep 1
+	sh ./test.sh
+	
+	# Πάμε ξανά
+        i=$(($i +1))
+    fi
+    echo
+done

@@ -1,0 +1,6 @@
+Active connection state: unknown
+Active connection path: /org/freedesktop/NetworkManager/ActiveConnection/203
+state: VPN connecting (need authentication) (2)
+state: VPN connecting (3)
+state: VPN connecting (getting IP configuration) (4)
+Connection activated
