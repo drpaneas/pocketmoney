@@ -91,6 +91,7 @@ Requirements
 How to run
 ===========
 sudo chmod +x pocket.sh
+
 ./pocket.sh
 
 
