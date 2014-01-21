@@ -69,22 +69,22 @@ Requirements
 6.  Optional changes
     The script comments are written in my native language, so here's a brief exaplanation for the non-Greek speakers
     
-    # Time interval between links
+    // Time interval between links
     link_time=105
     
-    # Time interval between change of VPNs
+    // Time interval between change of VPNs
     vpn_time=60
     
-    # Time to wait after setting up the VPN connection
+    // Time to wait after setting up the VPN connection
     vpn_boot_time=60
     
-    # Time to wait after the first failure
+    // Time to wait after the first failure
     fail_time_1=300
     
-    # Time to wait after the second failure
+    // Time to wait after the second failure
     fail_time_2=7200
     
-    # Time to wait after the third failure
+    // Time to wait after the third failure
     fail_time_3=360000
     
     
